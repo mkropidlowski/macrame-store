@@ -8,7 +8,7 @@ const AvailableNow = ({ products }: { products: ProductsProps[] }) => {
     return (
         <div className="max-w-[1240px] mt-[150px] scroll-mt-[100px]" id="dostepne-od-reki">
             <div className="flex flex-col justify-center items-center">
-                <h2 className="font-bold text-[45px]">Dostępne od ręki</h2>
+                <h2 className="font-bold text-[45px] text-center md:w-full w-[300px]">Dostępne od ręki</h2>
                 <div className="flex flex-wrap justify-center gap-4 mt-[80px]">
                     {products.map((product) => (
                         <div

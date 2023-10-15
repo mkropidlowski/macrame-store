@@ -19,7 +19,9 @@ const Header = () => {
                 <div className="flex items-center">
                     <Image src={macrameLogo} alt="Logo Macrame" width={42} height={42} quality={100} priority={true} />
                     <Link href={"/"}>
-                        <h2 className="text-2xl font-medium tracking-wider drop-shadow-md">MakramyOdSerca.pl</h2>
+                        <h2 className="md:text-2xl text-xl font-medium tracking-wider drop-shadow-md">
+                            MakramyOdSerca.pl
+                        </h2>
                     </Link>
                 </div>
                 <div className="block lg:hidden">
@@ -80,7 +82,7 @@ const Header = () => {
                         <Button fullWidth>kontakt</Button>
                     </Link>
                 </li>
-                <li>
+                <li className="flex items-center justify-center">
                     <Link href={"https://www.instagram.com/makramy.od.serca/"} legacyBehavior>
                         <a target="_blank" rel="noopener noreferrer">
                             <Instagram width={35} height={35} />

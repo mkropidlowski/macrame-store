@@ -3,10 +3,10 @@ import macrame from "@/public/images/macrameImage.png";
 import Button from "../Button";
 
 const About = () => (
-    <div className="max-w-[1240px] mt-[150px] scroll-mt-[100px]" id="o-mnie">
+    <div className="max-w-[1240px] md:mt-[150px] mt-[80px] scroll-mt-[100px]" id="o-mnie">
         <div className="flex flex-col justify-center items-center">
             <h2 className="font-bold text-[45px]">O mnie</h2>
-            <div className="flex md:flex-row flex-col justify-center gap-4 mt-[80px]">
+            <div className="flex md:flex-row flex-col justify-center gap-4 md:mt-[80px] mt-[30px]">
                 <div className="md:w-[500px] w-[290px] p-5 flex flex-col gap-4">
                     <h2 className="font-medium text-3xl">Tu się mozna przedstawić</h2>
                     <div>
