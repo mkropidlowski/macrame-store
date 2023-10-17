@@ -10,7 +10,7 @@ const Hero = () => (
         <Header />
         <div className="w-full md:h-[85vh] h-screen flex justify-center items-center bg-gradient-to-b from-[#fff3ee] to-[#ffdfd0] shadow-md">
             <div className="flex flex-col items-center mt-11">
-                <div className="flex justify-center items-center w-[130px] h-[130px] rounded-full bg-white">
+                <div className="flex justify-center items-center w-[130px] h-[130px] rounded-full bg-white mt-[50px]">
                     <Image src={macrame} alt="Macrame" quality={100} priority={true} />
                 </div>
                 <div className="md:w-full w-[300px] flex flex-col items-center gap-5 mt-10">
